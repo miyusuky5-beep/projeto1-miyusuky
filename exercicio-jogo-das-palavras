@@ -43,7 +43,7 @@ while True:
     print('Palavra formada: ', palavra_formada)
 
     if palavra_formada == palavra_secreta:
-        os.system('cls') # Para limpar o terminal
+        os.system('cls') 
         print('Você acertou! Parabéns!')
         print('A palavra era ', palavra_secreta)
         print('Tentativas: ', numero_tentativas)
@@ -51,3 +51,4 @@ while True:
         letras_acertadas = ''
         numero_tentativas = 0
  
+
